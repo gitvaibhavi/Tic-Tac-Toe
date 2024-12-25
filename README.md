@@ -13,19 +13,49 @@ This is a simple and interactive Tic Tac Toe game built using Flutter. The game 
 - **Restart Game**: Ability to restart the game after a completed match.
 - **Customizable Design**: Uses gradients, box shadows, and vibrant colors for an attractive interface.
 
-### Installation:
-Follow these steps to set up and run the project locally:
+## Prerequisites
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/gitvaibhavi/TicTacToeFlutter.git
-2. **Navigate into the project folder**:
-   ```bash
-   cd TicTacToeFlutter
-3. **Install the dependencies**:
-   ```bash
-   flutter pub get
-4. **Run the project**:
+Before you begin, ensure you have met the following requirements:
+
+- **Flutter SDK**: Make sure you have Flutter installed on your machine. You can check this by running `flutter --version` in your command prompt.
+- **Dart SDK**: The Dart SDK comes bundled with Flutter.
+- **IDE**: It's recommended to use an IDE like Visual Studio Code or Android Studio for Flutter development.
+
+## Getting Started
+
+Follow these steps to create and set up your Flutter project:
+
+1. **Open Command Prompt**:
+   - Press `Win + R`, type `cmd`, and hit `Enter` to open the command prompt.
+
+2. **Navigate to Your Desired Directory**:
+   - Use the `cd` command to navigate to the directory where you want to create your Flutter project. For example:
+     ```bash
+     cd path\to\your\desired\directory
+     ```
+
+3. **Create a New Flutter Project**:
+   - Run the following command to create a new Flutter project named `TicTacToeFlutter`:
+     ```bash
+     flutter create TicTacToeFlutter
+     ```
+
+4. **Navigate into the Project Directory**:
+   - Change into the newly created project directory:
+     ```bash
+     cd TicTacToeFlutter
+     ```
+
+5. **Open the Project in Your IDE (Optional)**:
+   - If you are using Visual Studio Code, you can open the project by running:
+     ```bash
+     code .
+     ```
+   - For Android Studio, you can open the project from the IDE.
+
+## Running the Project
+
+- Before you start coding, you can run the default Flutter app to ensure everything is set up correctly. Make sure you have an emulator running or a physical device connected, then run:
    ```bash
    flutter run
    
